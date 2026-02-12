@@ -21,7 +21,7 @@ public class DemoTestTest {
         Calculator c=new Calculator();
         
         //act
-        double result=c.divide(3,2);
+        double result=c.divide(4,2);
         
         //assert
         assertEquals(2,result);
@@ -39,4 +39,5 @@ public class DemoTestTest {
     
     
 }
+
 
