@@ -55,7 +55,5 @@ jobs:
    # runs-on: [self-hosted, windows]
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy to Server via SSH
-        uses: appleboy/ssh-action@v1.0.3
-        with:
-         host: runner    
+      - name: Check Node
+        run: node -v
