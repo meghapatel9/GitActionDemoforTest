@@ -56,4 +56,5 @@ jobs:
    # runs-on: ubuntu-latest
     steps:
       - name: Check Node
-        run: echo "Hello"
+       # run: echo "Hello"
+        run: node -v
